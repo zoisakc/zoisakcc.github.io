@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album - Kocham Cię Zosiu ❤️</title>
+    <style>
+        body {
+            background-color: #f6c1d1; /* Różowe tło */
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            color: #d63384;
+        }
+        h1 {
+            font-size: 50px;
+            color: #ff1493;
+            font-weight: bold;
+            margin-top: 50px;
+            text-shadow: 2px 2px 5px rgba(255, 20, 147, 0.6);
+        }
+        p {
+            font-size: 22px;
+            margin-top: 20px;
+            color: #d63384;
+            font-weight: bold;
+        }
+        .message {
+            font-size: 24px;
+            color: #ff1493;
+            margin-top: 30px;
+            font-weight: bold;
+            text-shadow: 1px 1px 3px rgba(255, 20, 147, 0.7);
+        }
+        .heart {
+            color: #ff1493;
+            font-size: 60px;
+            margin-top: 30px;
+            animation: heartAnimation 1.5s ease-in-out infinite;
+        }
+        @keyframes heartAnimation {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+        .gallery {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr); /* 5 zdjęć w jednym wierszu */
+            gap: 20px;
+            max-width: 90%;
+            margin: 0 auto;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        /* Style dla przycisków */
+        .button-container {
+            margin-top: 20px;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #ff1493;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        .button:hover {
+            background-color: #d63384;
+        }
+        .message-box {
+            font-size: 24px;
+            color: #d63384;
+            margin-top: 20px;
+            font-weight: bold;
+            display: none; /* Domyślnie ukryte */
+        }
+    </style>
+</head>
+<body>
+    <h1>Album Zosi, Kocham Cię Misuu ❤️</h1>
+    <p>Jest tutaj 101 zdjęć! Będzie więcej!! HIHI Zosiu! 💖</p>
+    <div class="message">
+        Kocham Cię, pysiu! Jesteś cudowna ❤️ Będą tu Twoje słodkie zdjęcia! 📸
+    </div>
+    <div class="heart">❤️</div>
+    
+    <!-- Przycisk "Kocham Cię" -->
+    <div class="button-container">
+        <button class="button" onclick="showMessage('Kocham Cię z całego serca, Zosiu! ❤️')">Kocham Cię</button>
+        
+        <!-- Przycisk prowadzący do bubus.html -->
+        <button class="button" onclick="window.location.href='bubus.html'">A tu Twój Misiu</button>
+    </div>
+
+    <!-- Miejsce na wyświetlanie wiadomości -->
+    <div class="message-box" id="message-box"></div>
+    
+    <!-- Galeria 100 zdjęć -->
+    <div class="gallery">
+        <img src="img1/z1.jpg" alt="Zdjęcie 1">
+        <img src="img1/z2.jpg" alt="Zdjęcie 2">
+        <img src="img1/z3.jpg" alt="Zdjęcie 3">
+        <img src="img1/z4.jpg" alt="Zdjęcie 4">
+        <img src="img1/z5.jpg" alt="Zdjęcie 5">
+        <img src="img1/z6.jpg" alt="Zdjęcie 6">
+        <img src="img1/z7.jpg" alt="Zdjęcie 7">
+        <img src="img1/z8.jpg" alt="Zdjęcie 8">
+        <img src="img1/z9.jpg" alt="Zdjęcie 9">
+        <img src="img1/z10.jpg" alt="Zdjęcie 10">
+
+        <img src="img1/z11.jpg" alt="Zdjęcie 11">
+        <img src="img1/z12.jpg" alt="Zdjęcie 12">
+        <img src="img1/z13.jpg" alt="Zdjęcie 13">
+        <img src="img1/z14.jpg" alt="Zdjęcie 14">
+        <img src="img1/z15.jpg" alt="Zdjęcie 15">
+        <img src="img1/z16.jpg" alt="Zdjęcie 16">
+        <img src="img1/z17.jpg" alt="Zdjęcie 17">
+        <img src="img1/z18.jpg" alt="Zdjęcie 18">
+        <img src="img1/z19.jpg" alt="Zdjęcie 19">
+        <img src="img1/z20.jpg" alt="Zdjęcie 20">
+
+        <img src="img1/z21.jpg" alt="Zdjęcie 21">
+        <img src="img1/z22.jpg" alt="Zdjęcie 22">
+        <img src="img1/z23.jpg" alt="Zdjęcie 23">
+        <img src="img1/z24.jpg" alt="Zdjęcie 24">
+        <img src="img1/z25.jpg" alt="Zdjęcie 25">
+        <img src="img1/z26.jpg" alt="Zdjęcie 26">
+        <img src="img1/z27.jpg" alt="Zdjęcie 27">
+        <img src="img1/z28.jpg" alt="Zdjęcie 28">
+        <img src="img1/z29.jpg" alt="Zdjęcie 29">
+        <img src="img1/z30.jpg" alt="Zdjęcie 30">
+
+        <img src="img1/z31.jpg" alt="Zdjęcie 31">
+        <img src="img1/z32.jpg" alt="Zdjęcie 32">
+        <img src="img1/z33.jpg" alt="Zdjęcie 33">
+        <img src="img1/z34.jpg" alt="Zdjęcie 34">
+        <img src="img1/z35.jpg" alt="Zdjęcie 35">
+        <img src="img1/z36.jpg" alt="Zdjęcie 36">
+        <img src="img1/z37.jpg" alt="Zdjęcie 37">
+        <img src="img1/z38.jpg" alt="Zdjęcie 38">
+        <img src="img1/z39.jpg" alt="Zdjęcie 39">
+        <img src="img1/z40.jpg" alt="Zdjęcie 40">
+
+        <img src="img1/z41.jpg" alt="Zdjęcie 41">
+        <img src="img1/z42.jpg" alt="Zdjęcie 42">
+        <img src="img1/z43.jpg" alt="Zdjęcie 43">
+        <img src="img1/z44.jpg" alt="Zdjęcie 44">
+        <img src="img1/z45.jpg" alt="Zdjęcie 45">
+        <img src="img1/z46.jpg" alt="Zdjęcie 46">
+        <img src="img1/z47.jpg" alt="Zdjęcie 47">
+        <img src="img1/z48.jpg" alt="Zdjęcie 48">
+        <img src="img1/z49.jpg" alt="Zdjęcie 49">
+        <img src="img1/z50.jpg" alt="Zdjęcie 50">
+
+        <img src="img1/z51.jpg" alt="Zdjęcie 51">
+        <img src="img1/z52.jpg" alt="Zdjęcie 52">
+        <img src="img1/z53.jpg" alt="Zdjęcie 53">
+        <img src="img1/z54.jpg" alt="Zdjęcie 54">
+        <img src="img1/z55.jpg" alt="Zdjęcie 55">
+        <img src="img1/z56.jpg" alt="Zdjęcie 56">
+        <img src="img1/z57.jpg" alt="Zdjęcie 57">
+        <img src="img1/z58.jpg" alt="Zdjęcie 58">
+        <img src="img1/z59.jpg" alt="Zdjęcie 59">
+        <img src="img1/z60.jpg" alt="Zdjęcie 60">
+
+        <img src="img1/z61.jpg" alt="Zdjęcie 61">
+        <img src="img1/z62.jpg" alt="Zdjęcie 62">
+        <img src="img1/z63.jpg" alt="Zdjęcie 63">
+        <img src="img1/z64.jpg" alt="Zdjęcie 64">
+        <img src="img1/z65.jpg" alt="Zdjęcie 65">
+        <img src="img1/z66.jpg" alt="Zdjęcie 66">
+        <img src="img1/z67.jpg" alt="Zdjęcie 67">
+        <img src="img1/z68.jpg" alt="Zdjęcie 68">
+        <img src="img1/z69.jpg" alt="Zdjęcie 69">
+        <img src="img1/z70.jpg" alt="Zdjęcie 70">
+
+        <img src="img1/z71.jpg" alt="Zdjęcie 71">
+        <img src="img1/z72.jpg" alt="Zdjęcie 72">
+        <img src="img1/z73.jpg" alt="Zdjęcie 73">
+        <img src="img1/z74.jpg" alt="Zdjęcie 74">
+        <img src="img1/z75.jpg" alt="Zdjęcie 75">
+        <img src="img1/z76.jpg" alt="Zdjęcie 76">
+        <img src="img1/z77.jpg" alt="Zdjęcie 77">
+        <img src="img1/z78.jpg" alt="Zdjęcie 78">
+        <img src="img1/z79.jpg" alt="Zdjęcie 79">
+        <img src="img1/z80.jpg" alt="Zdjęcie 80">
+
+        <img src="img1/z81.jpg" alt="Zdjęcie 81">
+        <img src="img1/z82.jpg" alt="Zdjęcie 82">
+        <img src="img1/z83.jpg" alt="Zdjęcie 83">
+        <img src="img1/z84.jpg" alt="Zdjęcie 84">
+        <img src="img1/z85.jpg" alt="Zdjęcie 85">
+        <img src="img1/z86.jpg" alt="Zdjęcie 86">
+        <img src="img1/z87.jpg" alt="Zdjęcie 87">
+        <img src="img1/z88.jpg" alt="Zdjęcie 88">
+        <img src="img1/z89.jpg" alt="Zdjęcie 89">
+        <img src="img1/z90.jpg" alt="Zdjęcie 90">
+
+        <img src="img1/z91.jpg" alt="Zdjęcie 91">
+        <img src="img1/z92.jpg" alt="Zdjęcie 92">
+        <img src="img1/z93.jpg" alt="Zdjęcie 93">
+        <img src="img1/z94.jpg" alt="Zdjęcie 94">
+        <img src="img1/z95.jpg" alt="Zdjęcie 95">
+        <img src="img1/z96.jpg" alt="Zdjęcie 96">
+        <img src="img1/z97.jpg" alt="Zdjęcie 97">
+        <img src="img1/z98.jpg" alt="Zdjęcie 98">
+        <img src="img1/z99.jpg" alt="Zdjęcie 99">
+        <img src="img1/z100.jpg" alt="Zdjęcie 100">
+    </div>
+
+    <script>
+        // Funkcja wyświetlająca wiadomości
+        function showMessage(message) {
+            const messageBox = document.getElementById('message-box');
+            messageBox.textContent = message;
+            messageBox.style.display = 'block'; // Pokazuje wiadomość
+        }
+    </script>
+</body>
+</html>

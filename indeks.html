@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dla Ciebie, Zosiu ❤️</title>
+    <style>
+        body {
+            background-color: #ffcccc;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            color: #d63384;
+        }
+        h1 {
+            font-size: 40px;
+            margin-top: 50px;
+            cursor: pointer;
+        }
+        p {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        .hearts {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+        .heart {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: red;
+            clip-path: polygon(50% 0%, 100% 35%, 80% 100%, 50% 75%, 20% 100%, 0% 35%);
+            animation: fall linear infinite;
+        }
+        @keyframes fall {
+            from { transform: translateY(-10%); }
+            to { transform: translateY(110vh); }
+        }
+        button {
+            padding: 15px 25px;
+            font-size: 18px;
+            background-color: #d63384;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            display: inline-block;
+            margin: 20px 10px;
+        }
+        #message {
+            display: none;
+            font-size: 22px;
+            margin-top: 20px;
+            color: #a61e4d;
+            font-weight: bold;
+        }
+        .gallery {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 90%;
+            margin: 0 auto;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .love-message {
+            font-size: 28px;
+            font-weight: bold;
+            color: #ff1493;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            white-space: nowrap;
+            animation: fadeOut 3s ease-in-out forwards;
+        }
+        @keyframes fadeOut {
+            0% { opacity: 1; top: 50px; }
+            100% { opacity: 0; top: 150px; }
+        }
+    </style>
+</head>
+<body>
+    <h1 onclick="showLoveMessage()">Dla mojego ukochanego misiaczka <3 Zosia ❤️</h1>
+    <p>Jesteś cudowna, Zosiu! Kocham Cię, jesteś moja i tylko moja 💖</p>
+     <button onclick="showLoveMessage()">❤️</button>
+    <button onclick="showMessage()">Kliknij, by zobaczyć niespodziankę</button>
+     <button onclick="showLoveMessage()">❤️</button>  
+ <button onclick="location.href='101_powodow.html'">101 powodów, dla których Cię kocham</button>
+    <button onclick="showLoveMessage()">❤️</button>
+    
+    <button onclick="location.href='album.html'">albumy twoich slicznych zdjec📸</button> <!-- Album button added here -->
+     <button onclick="showLoveMessage()">❤️</button>
+    <p id="message">zosiu kocham cie bardzo mocno jestes cudowna wiesz o tym 💗 nie wiem jak się pisze walentynki:(( nigdy do nikogo nie pisałem bo nie miałem takiej opcji ale zosiu kocham cie 💗💞 dostałaś już orezent na walentynki lecisz na Maltę chciałbym z tobą polecieć i byśmy walentynki sledsiki razem 💞💗 byśmy ze zrobili jakaś rkmatyczna kolacje czy cks dużo tulasow I calsowko 💗💞 bym ci zrobil najleosze walentynki! kocham cie bardzo mkcno! 💞💗 jesteś cudowna pamiętaj bede ci to mówić ciagke 💗 chce z tkba spędzić całe życie bo nie dość że jestes taka kochana i jestes taka idealna na mame ze to :33 jest nie możliwe jestes idealna z każdej strony jestes sliczna sympatyczna rosną szczywksiwa kochana 💞 idelana Figura wsyzsko ladne glos tez jestes ideałem 💞💗 chce cie przytulić bardzo mocno i usnąć ale to kiedyś indziej 💗💞 kocham cie mkcno i jestes niesamowita zosia 💞💗 zrobie ci prezencik i wyślę ale kiedyś indziej oki? misiu!💗💞kocham cie 💞 zrobię ci niesamowity prezent 💞 kocham cie nie wiem ile razy ci to powiedziałem ale  jak naweicej czym więcej tym lepiej hihi💞‚’/ hihi twoja emotka wysle tez tobie zdj jutro misiu! swoje i stefcia HIHIHIHI :33333  misiu jestes cudowna wiesz!💞💗 kocham cie bardzo mocno życzę Ci niesamowitych ferie na tej Malcie kiedyś razem polecimy i zrobimy se najlepszy dzien w życiu 💗💞 chce z tjba spędzić całe życie mowielm ci to ale naprawdę jestes idealna tak sie ciesze ze w wakacje bede mógł się z tobą spotkać 💞💗 huhihi💝kocham cie bardzo mocno misiu!💗💖💞💞jesteś moim serduszkiem słodkim! kicham cie hihi kicham KICHAM HIHI 💓💗🎀 zosiu kocham cie  mam nadzieje ze nie przeszkadza ci ze takie długie zrobiłem chyba długie:3 🎀💗 jak nie to sołki ale masz odemnie kartkę walentynkowo ide robic kolejny prezent :3 ale nie wiem czy się uda jak się uda to będzie super:))💗🎀
+ 
+dla kochanej zosi.ł 🎀💗  ❤️</p>
+
+    
+    <div class="hearts"></div>
+    <div class="gallery">
+        <img src="img/misia1.jpg" alt="Zdjęcie 1">
+        <img src="img/misia2.jpg" alt="Zdjęcie 2">
+        <img src="img/misia3.jpg" alt="Zdjęcie 3">
+        <img src="img/misia4.jpg" alt="Zdjęcie 4">
+        <img src="img/misia5.jpg" alt="Zdjęcie 5">
+        <img src="img/misia6.jpg" alt="Zdjęcie 6">
+        <img src="img/misia7.jpg" alt="Zdjęcie 7">
+        <img src="img/misia8.jpg" alt="Zdjęcie 8">
+        <img src="img/misia9.jpg" alt="Zdjęcie 9">
+        <img src="img/misia10.jpg" alt="Zdjęcie 10">
+        <img src="img/misia11.jpg" alt="Zdjęcie 11">
+        <img src="img/misia12.jpg" alt="Zdjęcie 12">
+        <img src="img/misia13.jpg" alt="Zdjęcie 13">
+        <img src="img/misia14.jpg" alt="Zdjęcie 14">
+        <img src="img/misia15.jpg" alt="Zdjęcie 15">
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").style.display = "block";
+        }
+
+        function createHeart() {
+            const heart = document.createElement("div");
+            heart.classList.add("heart");
+            heart.style.left = Math.random() * 100 + "vw";
+            heart.style.animationDuration = Math.random() * 2 + 3 + "s"; 
+            document.querySelector(".hearts").appendChild(heart);
+            setTimeout(() => heart.remove(), 5000);
+        }
+        setInterval(createHeart, 500);
+
+        function showLoveMessage() {
+            const message = document.createElement("div");
+            message.classList.add("love-message");
+            message.innerText = "Kocham Cię Zosiu ❤️";
+            message.style.top = Math.random() * 80 + "vh";
+            document.body.appendChild(message);
+            setTimeout(() => message.remove(), 3000);
+        }
+    </script>
+</body>
+</html>
